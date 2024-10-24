@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0988-flip-equivalent-binary-trees](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0988-flip-equivalent-binary-trees) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -50,9 +51,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0988-flip-equivalent-binary-trees](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0988-flip-equivalent-binary-trees) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0988-flip-equivalent-binary-trees](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0988-flip-equivalent-binary-trees) |
 <!---LeetCode Topics End-->
