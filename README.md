@@ -68,4 +68,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0988-flip-equivalent-binary-trees](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0988-flip-equivalent-binary-trees) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0002-add-two-numbers) |
+## Math
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
