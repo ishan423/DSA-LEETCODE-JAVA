@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0215-kth-largest-element-in-an-array) |
 | [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Depth-First Search
 |  |
