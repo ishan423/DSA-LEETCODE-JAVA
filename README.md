@@ -103,4 +103,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2580-circular-sentence](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2580-circular-sentence) |
+| [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 <!---LeetCode Topics End-->
