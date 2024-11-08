@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0073-set-matrix-zeroes) |
+| [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 | [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0215-kth-largest-element-in-an-array) |
 | [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0002-add-two-numbers) |
+| [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 | [0319-bulb-switcher](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0319-bulb-switcher) |
 ## Recursion
 |  |
@@ -99,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0073-set-matrix-zeroes) |
+| [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
 ## Dynamic Programming
@@ -128,4 +131,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0319-bulb-switcher](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0319-bulb-switcher) |
+## Geometry
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
