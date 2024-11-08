@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0002-add-two-numbers) |
+| [0319-bulb-switcher](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0319-bulb-switcher) |
 ## Recursion
 |  |
 | ------- |
@@ -123,4 +124,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1940-maximum-xor-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1940-maximum-xor-for-each-query) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
