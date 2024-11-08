@@ -18,11 +18,11 @@ class Solution {
 
         }
         
-       for(int i = 0;i<ans.size();i++){
-        x[i] = ans.get(i);
-       }
+    //    for(int i = 0;i<ans.size();i++){
+    //     x[i] = ans.get(i);
+    //    }
         
-        
-        return x;
+       return ans.stream().mapToInt(Integer::intValue).toArray(); 
+        // return ans.toArray(int[] a);
     }
 }
