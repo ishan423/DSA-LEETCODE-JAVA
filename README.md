@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
+| [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3291-find-if-array-can-be-sorted) |
 ## Divide and Conquer
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
+| [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -93,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0002-add-two-numbers) |
 | [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 | [0319-bulb-switcher](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0319-bulb-switcher) |
+| [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
 ## Recursion
 |  |
 | ------- |
@@ -135,4 +138,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
+## Greedy
+|  |
+| ------- |
+| [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
+## Number Theory
+|  |
+| ------- |
+| [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
 <!---LeetCode Topics End-->
