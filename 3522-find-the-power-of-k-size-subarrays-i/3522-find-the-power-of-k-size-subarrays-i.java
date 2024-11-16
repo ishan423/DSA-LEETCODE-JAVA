@@ -32,7 +32,6 @@ class Solution {
         for (int i= 0; i <= N - k; i++) {
             boolean x = true;
 
-            // Check if the current subarray is sorted and consecutive
             for (int j = i; j < i + k - 1; j++) {
                 if (nums[j + 1] != nums[j] + 1) {
                     x = false;
@@ -40,9 +39,7 @@ class Solution {
                 }
             }
 
-            // If valid, take the maximum of the subarray, otherwise set to -1
             if (x) {
-                // Maximum element of this subarray
                 arr[i] = nums[i + k - 1];
             } else {
                 arr[i] = -1;
