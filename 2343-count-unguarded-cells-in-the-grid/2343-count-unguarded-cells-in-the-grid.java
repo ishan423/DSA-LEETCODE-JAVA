@@ -1,57 +1,61 @@
 class Solution {
+    public int countUnguarded(int n, int m, int[][] guards, int[][] walls) {
+        
+        boolean[][] row = new boolean[n + 2][m + 2];
+        boolean[][] col = new boolean[n + 2][m + 2]; 
+        boolean[][] w = new boolean[n + 2][m + 2];
 
-    private static final int UNGUARDED = 0;
-    private static final int GUARDED = 1;
-    private static final int GUARD = 2;
-    private static final int WALL = 3;
 
-    // Depth-First Search to mark guarded cells
-    private void recurse(int row, int col, int[][] grid, char direction) {
-        if (
-            row < 0 ||
-            row >= grid.length ||
-            col < 0 ||
-            col >= grid[0].length ||
-            grid[row][col] == GUARD ||
-            grid[row][col] == WALL
-        ) {
-            return;
-        }
-        grid[row][col] = GUARDED; // Mark cell as guarded
-        if (direction == 'U') recurse(row - 1, col, grid, 'U'); // Up
-        if (direction == 'D') recurse(row + 1, col, grid, 'D'); // Down
-        if (direction == 'L') recurse(row, col - 1, grid, 'L'); // Left
-        if (direction == 'R') recurse(row, col + 1, grid, 'R'); // Right
-    }
-
-    public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
-        int[][] grid = new int[m][n];
-
-        // Mark guards' positions
-        for (int[] guard : guards) {
-            grid[guard[0]][guard[1]] = GUARD;
+        for (int i = 0 ; i < guards.length ; i++){
+            int r = guards[i][0];
+            int c = guards[i][1];
+            row[r + 1][c + 1] = true;
+            col[r + 1][c + 1] = true;
         }
 
-        // Mark walls' positions
-        for (int[] wall : walls) {
-            grid[wall[0]][wall[1]] = WALL;
+        for (int i = 0 ; i < walls.length ; i++){
+            int r = walls[i][0];
+            int c = walls[i][1];
+            w[r + 1][c + 1] = true;
         }
 
-        // Mark cells as guarded by traversing from each guard
-        for (int[] guard : guards) {
-            recurse(guard[0] - 1, guard[1], grid, 'U'); // Up
-            recurse(guard[0] + 1, guard[1], grid, 'D'); // Down
-            recurse(guard[0], guard[1] - 1, grid, 'L'); // Left
-            recurse(guard[0], guard[1] + 1, grid, 'R'); // Right
-        }
-
-        // Count unguarded cells
-        int count = 0;
-        for (int[] row : grid) {
-            for (int cell : row) {
-                if (cell == UNGUARDED) count++;
+        for (int i = 1 ; i<=n ; i++){
+            for (int j = 1 ; j<=m ; j++){
+                if (w[i][j])
+                    continue;
+                if (row[i][j]==true || row[i][j - 1]==true)
+                    row[i][j] = true;
+            }
+            for (int j = m  ; j>=1 ; j--){
+                if (w[i][j])
+                    continue;
+                if (row[i][j]==true || row[i][j + 1]==true)
+                    row[i][j] = true;
             }
         }
-        return count;
+
+        for (int j = 1 ; j<=m ; j++){
+            for (int i = 1 ; i<=n ; i++){
+                if(w[i][j])
+                    continue;
+                if (col[i-1][j]==true || col[i][j])
+                    col[i][j] = true;
+            }
+            for (int i = n ; i>=1 ;i--){
+                if (w[i][j])
+                    continue;
+                if (col[i + 1][j]==true || col[i][j])
+                    col[i][j] = true;
+            }
+        }
+        int ans =0;
+        for (int i = 1 ; i<=n ; i++){
+            for (int j = 1 ; j<=m ;j++){
+                if (col[i][j] || row[i][j] || w[i][j])
+                    continue;
+                ans = ans + 1;
+            }
+        }
+        return ans;
     }
 }
