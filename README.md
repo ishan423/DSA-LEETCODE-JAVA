@@ -181,4 +181,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2343-count-unguarded-cells-in-the-grid) |
+## Graph
+|  |
+| ------- |
+| [3189-find-champion-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3189-find-champion-ii) |
 <!---LeetCode Topics End-->
