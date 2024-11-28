@@ -1,65 +1,41 @@
-public class Solution {
-
-    // Directions for movement: right, left, down, up
-    private final int[][] directions = {
-        { 0, 1 },
-        { 0, -1 },
-        { 1, 0 },
-        { -1, 0 },
-    };
-
+class Solution {
+    private static int[] DROW = {1, 0, -1, 0};
+    private static int[] DCOL = {0, 1, 0, -1};
+    private static int INF = Integer.MAX_VALUE >> 2;
     public int minimumObstacles(int[][] grid) {
         int m = grid.length, n = grid[0].length;
-
-        // Distance matrix to store the minimum obstacles removed to reach each cell
-        int[][] minObstacles = new int[m][n];
-
-        // Initialize all cells with a large value, representing unvisited cells
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                minObstacles[i][j] = Integer.MAX_VALUE;
-            }
+        PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> Integer.compare(a[2], b[2]));
+        queue.offer(new int[] {0, 0, 0});
+        int[][] distance = new int[m][n];
+        for (int[] d : distance) {
+            Arrays.fill(d, INF);
         }
-
-        minObstacles[0][0] = 0;
-
-        Deque<int[]> deque = new ArrayDeque<>();
-        deque.add(new int[] { 0, 0, 0 }); // {obstacles, row, col}
-
-        while (!deque.isEmpty()) {
-            int[] current = deque.poll();
-            int obstacles = current[0], row = current[1], col = current[2];
-
-            // Explore all four possible directions from the current cell
-            for (int[] dir : directions) {
-                int newRow = row + dir[0], newCol = col + dir[1];
-
-                if (
-                    isValid(grid, newRow, newCol) &&
-                    minObstacles[newRow][newCol] == Integer.MAX_VALUE
-                ) {
-                    if (grid[newRow][newCol] == 1) {
-                        // If it's an obstacle, add 1 to obstacles and push to the back
-                        minObstacles[newRow][newCol] = obstacles + 1;
-                        deque.addLast(
-                            new int[] { obstacles + 1, newRow, newCol }
-                        );
-                    } else {
-                        // If it's an empty cell, keep the obstacle count and push to the front
-                        minObstacles[newRow][newCol] = obstacles;
-                        deque.addFirst(new int[] { obstacles, newRow, newCol });
-                    }
+        distance[0][0] = 0;
+        
+        while (!queue.isEmpty()) {
+            int [] cur = queue.poll();
+            int row = cur[0];
+            int col = cur[1];
+            int cost = cur[2];
+            if (row == m - 1 && col == n - 1) {
+                return cost;
+            }
+            for (int k = 0; k < 4; k++) {
+                int newRow = row + DROW[k];
+                int newCol = col + DCOL[k];
+                if (newRow < 0 || newRow >= m || newCol < 0 || newCol >= n) {
+                    continue;
                 }
+                int newCost = cost + grid[newRow][newCol];
+                if (distance[newRow][newCol] <= newCost) {
+                    continue;
+                }
+                distance[newRow][newCol] = newCost;
+                queue.offer(new int[] {newRow, newCol, newCost});
             }
         }
-
-        return minObstacles[m - 1][n - 1];
-    }
-
-    // Helper method to check if the cell is within the grid bounds
-    private boolean isValid(int[][] grid, int row, int col) {
-        return (
-            row >= 0 && col >= 0 && row < grid.length && col < grid[0].length
-        );
+        return -1;
+        
+        
     }
 }
