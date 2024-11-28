@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2179-most-beautiful-item-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Quickselect
 |  |
 | ------- |
@@ -74,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Tree
@@ -133,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
 | [1972-rotating-the-box](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1972-rotating-the-box) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## String
 |  |
@@ -184,5 +188,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [3189-find-champion-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3189-find-champion-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 <!---LeetCode Topics End-->
