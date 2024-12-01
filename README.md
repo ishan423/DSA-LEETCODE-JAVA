@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
 | [1755-defuse-the-bomb](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1755-defuse-the-bomb) |
 | [1940-maximum-xor-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1940-maximum-xor-for-each-query) |
@@ -37,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -124,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0073-set-matrix-zeroes) |
 | [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
@@ -176,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1972-rotating-the-box](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1972-rotating-the-box) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sliding Window
