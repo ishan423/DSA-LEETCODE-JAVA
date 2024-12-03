@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1972-rotating-the-box](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1972-rotating-the-box) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2232-adding-spaces-to-a-string](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -154,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2232-adding-spaces-to-a-string](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2232-adding-spaces-to-a-string) |
 | [2580-circular-sentence](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2580-circular-sentence) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
@@ -187,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1972-rotating-the-box](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1972-rotating-the-box) |
+| [2232-adding-spaces-to-a-string](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2232-adding-spaces-to-a-string) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sliding Window
 |  |
@@ -199,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
+| [2232-adding-spaces-to-a-string](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Graph
 |  |
