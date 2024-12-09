@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3291-find-if-array-can-be-sorted) |
+| [3427-special-array-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3427-special-array-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Divide and Conquer
 |  |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
+| [3427-special-array-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3427-special-array-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -176,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1940-maximum-xor-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1940-maximum-xor-for-each-query) |
+| [3427-special-array-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3427-special-array-ii) |
 ## Brainteaser
 |  |
 | ------- |
