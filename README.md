@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3291-find-if-array-can-be-sorted](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3291-find-if-array-can-be-sorted) |
 | [3427-special-array-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3427-special-array-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2868-continuous-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2868-continuous-subarrays) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Quickselect
 |  |
 | ------- |
@@ -142,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 | [0319-bulb-switcher](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0319-bulb-switcher) |
 | [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Recursion
 |  |
 | ------- |
@@ -242,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Graph
 |  |
 | ------- |
