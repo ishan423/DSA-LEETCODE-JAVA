@@ -296,4 +296,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1203-print-in-order](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1203-print-in-order) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
