@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
+| [1693-sum-of-all-odd-length-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1755-defuse-the-bomb](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1755-defuse-the-bomb) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1917-maximum-average-pass-ratio](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1917-maximum-average-pass-ratio) |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0048-rotate-image) |
 | [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 | [0319-bulb-switcher](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0319-bulb-switcher) |
+| [1693-sum-of-all-odd-length-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [2716-prime-subtraction-operation](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2716-prime-subtraction-operation) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Recursion
@@ -214,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [1693-sum-of-all-odd-length-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1940-maximum-xor-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1940-maximum-xor-for-each-query) |
 | [3427-special-array-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3427-special-array-ii) |
 ## Brainteaser
