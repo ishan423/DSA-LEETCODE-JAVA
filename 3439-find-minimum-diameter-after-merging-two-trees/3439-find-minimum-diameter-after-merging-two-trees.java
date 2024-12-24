@@ -1,80 +1,61 @@
 class Solution {
 
-    public int minimumDiameterAfterMerge(int[][] edges1, int[][] edges2) {
-        // Calculate the number of nodes for each tree (number of edges + 1)
-        int n = edges1.length + 1;
-        int m = edges2.length + 1;
+    static int[] bfs(int root, ArrayList<Integer> arr[]){
+        int ans[] = new int[2];
+        int n = arr.length;
+        int dist[] = new int[n];
+        Arrays.fill(dist,-1);
+        dist[root] = 0;
+        Queue<Integer> q = new LinkedList<>();
+        q.add(root);
 
-        // Build adjacency lists for both trees
-        List<List<Integer>> adjList1 = buildAdjList(n, edges1);
-        List<List<Integer>> adjList2 = buildAdjList(m, edges2);
+        int maxd = 0;
+        int farthestNode = root;
 
-        // Calculate the diameter of both trees
-        int diameter1 = findDiameter(n, adjList1);
-        int diameter2 = findDiameter(m, adjList2);
+        while(q.size()!=0){
+            int a = q.remove();
 
-        // Calculate the longest path that spans across both trees
-        int combinedDiameter =
-            (int) Math.ceil(diameter1 / 2.0) +
-            (int) Math.ceil(diameter2 / 2.0) +
-            1;
+            for(var x : arr[a]){
+                if(dist[x]==-1){
+                    dist[x] = dist[a]+1;
+                    q.add(x);
 
-        // Return the maximum of the three possibilities
-        return Math.max(Math.max(diameter1, diameter2), combinedDiameter);
-    }
-
-    // Function to build an adjacency list from an edge list
-    private List<List<Integer>> buildAdjList(int size, int[][] edges) {
-        List<List<Integer>> adjList = new ArrayList<>();
-        for (int i = 0; i < size; i++) {
-            adjList.add(new ArrayList<>());
-        }
-        for (int[] edge : edges) {
-            adjList.get(edge[0]).add(edge[1]);
-            adjList.get(edge[1]).add(edge[0]);
-        }
-        return adjList;
-    }
-
-    // Function to find the diameter of a tree
-    private int findDiameter(int n, List<List<Integer>> adjList) {
-        Queue<Integer> leavesQueue = new LinkedList<>();
-        int[] degrees = new int[n];
-
-        // Initialize the degree of each node and add leaves (nodes with degree 1) to the queue
-        for (int node = 0; node < n; node++) {
-            degrees[node] = adjList.get(node).size();
-            if (degrees[node] == 1) {
-                leavesQueue.offer(node);
-            }
-        }
-
-        int remainingNodes = n;
-        int leavesLayersRemoved = 0;
-
-        // Process the leaves until there are 2 or fewer nodes remaining
-        while (remainingNodes > 2) {
-            int size = leavesQueue.size();
-            remainingNodes -= size;
-            leavesLayersRemoved++;
-
-            // Remove the leaves from the queue and update the degrees of their neighbors
-            for (int i = 0; i < size; i++) {
-                int currentNode = leavesQueue.poll();
-
-                // Process the neighbors of the current leaf
-                for (int neighbor : adjList.get(currentNode)) {
-                    degrees[neighbor]--;
-                    if (degrees[neighbor] == 1) {
-                        leavesQueue.offer(neighbor);
+                    if(dist[x]>maxd){
+                        maxd = dist[x];
+                        farthestNode = x;
                     }
                 }
             }
         }
+        return new int[]{farthestNode,maxd};
+    }
+    static int findDiameter(ArrayList<Integer> arr[]){
+        int x1[] = bfs(0,arr);
+        int x2[] = bfs(x1[0],arr);
+        return x2[1];
+    }
+    public int minimumDiameterAfterMerge(int[][] edges1, int[][] edges2) {
+        int n = edges1.length;
+        int m = edges2.length;
 
-        // If exactly two nodes remain, return the diameter as twice the number of layers of leaves removed + 1
-        if (remainingNodes == 2) return 2 * leavesLayersRemoved + 1;
+        ArrayList<Integer> arr1[] = new ArrayList[n+1];
+        ArrayList<Integer> arr2[] = new ArrayList[m+1];
+        for(int i=0; i<=n; i++) arr1[i] = new ArrayList<>();
+        for(int i=0; i<=m; i++) arr2[i] = new ArrayList<>();
 
-        return 2 * leavesLayersRemoved;
+        for(var a : edges1){
+            arr1[a[0]].add(a[1]);
+            arr1[a[1]].add(a[0]);
+        }
+
+        for(var a : edges2){
+            arr2[a[0]].add(a[1]);
+            arr2[a[1]].add(a[0]);
+        }
+
+        int d1 = findDiameter(arr1);
+        int d2 = findDiameter(arr2);
+
+        return Math.max(Math.max(d1,d2),((d1+1)/2+(d2+1)/2+1));
     }
 }
