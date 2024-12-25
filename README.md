@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -146,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0988-flip-equivalent-binary-trees) |
 | [2201-valid-arrangement-of-pairs](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2201-valid-arrangement-of-pairs) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2493-reverse-odd-levels-of-binary-tree) |
