@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0149-max-points-on-a-line](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0149-max-points-on-a-line) |
 | [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0494-target-sum](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -84,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0494-target-sum) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Bit Manipulation
 |  |
@@ -190,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0494-target-sum) |
 | [2164-two-best-non-overlapping-events](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2164-two-best-non-overlapping-events) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2794-maximum-number-of-moves-in-a-grid) |
