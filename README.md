@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
+| [1063-best-sightseeing-pair](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1063-best-sightseeing-pair) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0494-target-sum) |
+| [1063-best-sightseeing-pair](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1063-best-sightseeing-pair) |
 | [2164-two-best-non-overlapping-events](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2164-two-best-non-overlapping-events) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2794-maximum-number-of-moves-in-a-grid) |
