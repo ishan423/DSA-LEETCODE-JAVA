@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0494-target-sum](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0494-target-sum) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
 | [1063-best-sightseeing-pair](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1063-best-sightseeing-pair) |
@@ -194,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0494-target-sum) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1063-best-sightseeing-pair](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1063-best-sightseeing-pair) |
 | [2164-two-best-non-overlapping-events](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2164-two-best-non-overlapping-events) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2586-longest-square-streak-in-an-array) |
