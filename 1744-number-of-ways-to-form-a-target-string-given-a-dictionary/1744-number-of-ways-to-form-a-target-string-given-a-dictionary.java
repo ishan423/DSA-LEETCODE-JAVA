@@ -1,46 +1,36 @@
 class Solution {
+    private Long[][] memo;
+    private static final int MOD = (int)Math.pow(10, 9) + 7;
 
     public int numWays(String[] words, String target) {
-        int wordLength = words[0].length();
-        int targetLength = target.length();
-        final int MOD = 1000000007;
-
-        // Step 1: Calculate frequency of each character at every index in
-        // "words".
-        int[][] charFrequency = new int[wordLength][26];
-        for (String word : words) {
-            for (int j = 0; j < wordLength; ++j) {
-                charFrequency[j][word.charAt(j) - 'a']++;
+        int[][] charPosCount = new int[26][words[0].length()];
+        this.memo = new Long[target.length()][words[0].length()];
+        for(String w : words) {
+            for(int i = 0; i < w.length(); i++) {
+                char c = w.charAt(i);
+                charPosCount[c - 'a'][i]++;
             }
         }
+        return (int)helper(target, 0, 0, charPosCount);
+    }
 
-        // Step 2: Initialize a DP table.
-        long[][] dp = new long[wordLength + 1][targetLength + 1];
-
-        // Base case: There is one way to form an empty target string.
-        for (int currWord = 0; currWord <= wordLength; ++currWord) {
-            dp[currWord][0] = 1;
+    private long helper(String target, int i, int leftMost, int[][] charPosCount) {
+        if(i == target.length()) {
+            return 1;
         }
-
-        // Step 3: Fill the DP table.
-        for (int currWord = 1; currWord <= wordLength; ++currWord) {
-            for (int currTarget = 1; currTarget <= targetLength; ++currTarget) {
-                // Carry over the previous value (not using this index of
-                // "words").
-                dp[currWord][currTarget] = dp[currWord - 1][currTarget];
-
-                // Add ways using the current index of "words" if the characters
-                // match.
-                int curPos = target.charAt(currTarget - 1) - 'a';
-                dp[currWord][currTarget] +=
-                    (charFrequency[currWord - 1][curPos] *
-                        dp[currWord - 1][currTarget - 1]) %
-                    MOD;
-                dp[currWord][currTarget] %= MOD;
-            }
+        if(i + charPosCount[0].length - leftMost < target.length()) {
+            return 0;
         }
-
-        // Step 4: The result is in dp[wordLength][targetLength].
-        return (int) dp[wordLength][targetLength];
+        if(memo[i][leftMost] != null) {
+            return memo[i][leftMost];
+        }
+        long res = 0;
+        for(int j = leftMost; j < charPosCount[0].length; j++) {
+            if(charPosCount[target.charAt(i) - 'a'][j] != 0) {
+                res += (charPosCount[target.charAt(i) - 'a'][j] * helper(target, i + 1, j + 1, charPosCount));
+                res %= MOD;
+            }  
+        }
+        return memo[i][leftMost] = res % MOD;
     }
 }
