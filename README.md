@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0780-max-chunks-to-make-sorted) |
 | [0898-transpose-matrix](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0898-transpose-matrix) |
+| [0932-monotonic-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/0932-monotonic-array) |
 | [1063-best-sightseeing-pair](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1063-best-sightseeing-pair) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
