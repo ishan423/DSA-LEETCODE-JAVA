@@ -1,24 +1,23 @@
 class Solution {
     public int maxScore(String s) {
-        int ones = 0;
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '1') {
-                ones++;
-            }
-        }
-        
-        int ans = 0;
-        int zeros = 0;
-        for (int i = 0; i < s.length() - 1; i++) {
-            if (s.charAt(i) == '1') {
-                ones--;
+        int n = s.length();
+        int ons = 0;
+        int curr = s.charAt(0) == '0' ? 1 : 0;
+        int score = curr;
+
+        for (int i = 1; i < n - 1; i++) {
+            if (s.charAt(i) == '0') {
+                curr++;
             } else {
-                zeros++;
+                ons++;
+                curr--;
             }
-            
-            ans = Math.max(ans, zeros + ones);
+            if (curr > score) {
+                score = curr;
+            }
         }
-        
-        return ans;
+        ons += s.charAt(n - 1) == '1' ? 1 : 0;
+
+        return ons + score;
     }
 }
