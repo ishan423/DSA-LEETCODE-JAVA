@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2232-adding-spaces-to-a-string](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2358-number-of-ways-to-split-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -241,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1940-maximum-xor-for-each-query](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/1940-maximum-xor-for-each-query) |
+| [2358-number-of-ways-to-split-array](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/2358-number-of-ways-to-split-array) |
 | [3427-special-array-ii](https://github.com/ishan423/DSA-LEETCODE-JAVA/tree/master/3427-special-array-ii) |
 ## Brainteaser
 |  |
